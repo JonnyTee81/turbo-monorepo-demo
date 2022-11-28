@@ -2,11 +2,22 @@ lockfileVersion: 5.4
 
 importers:
 
+  .:
+    specifiers: {}
+
+  packages/api:
+    specifiers: {}
+
   packages/types:
     specifiers:
+      types: workspace:^1.0.0
       typescript: ^4.9.3
     devDependencies:
+      types: 'link:'
       typescript: 4.9.3
+
+  packages/web:
+    specifiers: {}
 
 packages:
 
